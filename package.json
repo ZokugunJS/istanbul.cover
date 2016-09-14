@@ -1,0 +1,30 @@
+{
+	"name": "@zokugun/istanbul.cover",
+	"description": "Control how Istanbul covers your code and generates the reports",
+	"version": "0.4.0",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ZokugunJS/istanbul.cover"
+	},
+	"bugs": {
+		"url": "https://github.com/ZokugunJS/istanbul.cover/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"main": "src/cli.js",
+	"peerDependencies" : {
+		"istanbul": "^0.4"
+	},
+	"keywords": [
+		"istanbul",
+		"coverage"
+	]
+}

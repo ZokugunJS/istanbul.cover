@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * cli.js
- * Version 0.4.0
+ * Version 0.5.0
  * March 4th, 2016
  *
  * Copyright (c) 2016 Baptiste Augrain
@@ -12,7 +12,12 @@ var istanbul = require('istanbul');
 var fs = require('fs');
 var hook = require('istanbul/lib/hook.js');
 var matcherFor = require('istanbul/lib/util/file-matcher').matcherFor;
-var mkdirp = require('istanbul/node_modules/mkdirp');
+try {
+	var mkdirp = require('istanbul/node_modules/mkdirp');
+}
+catch(error) {
+	var mkdirp = require('mkdirp');
+}
 var Module = require('module');
 var path = require('path');
 

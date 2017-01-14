@@ -37,13 +37,6 @@ Execute
 To launch Istanbul, use the command `node node_modules/zokugun.istanbul.cover/src/cli.js`.
 
 
-Changelog
----------
-
-### 0.4.0
-
-- Initial Release
-
 License
 -------
 
